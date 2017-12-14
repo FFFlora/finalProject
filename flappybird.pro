@@ -25,10 +25,33 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    element.cpp \
+    bird.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    element.h \
+    bird.h
 
 FORMS += \
         mainwindow.ui
+
+DISTFILES += \
+    ../../../Desktop/FlappyBird/Images/bg.png \
+    ../../../Desktop/FlappyBird/Images/bird1.png \
+    ../../../Desktop/FlappyBird/Images/bird2.png \
+    ../../../Desktop/FlappyBird/Images/bird3.png \
+    ../../../Desktop/FlappyBird/Images/gameover.png \
+    ../../../Desktop/FlappyBird/Images/ground.png \
+    ../../../Desktop/FlappyBird/Images/guid1.png \
+    ../../../Desktop/FlappyBird/Images/guid2.png \
+    ../../../Desktop/FlappyBird/Images/guid3.png \
+    ../../../Desktop/FlappyBird/Images/medal0.png \
+    ../../../Desktop/FlappyBird/Images/medal1.png \
+    ../../../Desktop/FlappyBird/Images/medal2.png \
+    ../../../Desktop/FlappyBird/Images/pipe1.png \
+    ../../../Desktop/FlappyBird/Images/pipe2.png \
+    ../../../Desktop/FlappyBird/Images/rank.png \
+    ../../../Desktop/FlappyBird/Images/replay.png \
+    ../../../Desktop/FlappyBird/Images/scoreboard.png
