@@ -37,5 +37,5 @@ void element::setRectangle(QRectF rect)
 
 void element::setEnabled(bool ifEnabled)
 {
-    enabled=ifEnabled;
+    enabled = ifEnabled;
 }
