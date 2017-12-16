@@ -25,14 +25,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp \
-    element.cpp \
-    bird.cpp
+        mainwindow.cpp
 
 HEADERS += \
-        mainwindow.h \
-    element.h \
-    bird.h
+        mainwindow.h
 
 FORMS += \
         mainwindow.ui
@@ -55,3 +51,7 @@ DISTFILES += \
     ../../../Desktop/FlappyBird/Images/rank.png \
     ../../../Desktop/FlappyBird/Images/replay.png \
     ../../../Desktop/FlappyBird/Images/scoreboard.png
+
+RESOURCES += \
+    image/image.qrc \
+    image.qrc
